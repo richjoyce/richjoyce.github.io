@@ -2,3 +2,7 @@ name: A website
 safe: true
 lsi: false
 pygments: true
+permalink: '/blog/:year/:title/'
+paginate_path: '/blog/page:num/'
+include: ['_pages']
+relative_permalinks: false
